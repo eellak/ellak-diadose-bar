@@ -1,0 +1,77 @@
+/*--------------------------------------------------------------
+## DIADOSE BAR STYLING tt -- BY BROMOIRAS DAVID-OCT 24 2016
+--------------------------------------------------------------*/
+.diadose-wrap{
+    background-color: rgb(150, 200, 150);
+    margin: 0px;
+    padding: 0px;
+}
+
+.diadose{
+    position: relative;
+}
+
+.text-content{
+    color: #fff;
+    font-size: 22px;
+}
+
+@media (min-width: 401px){
+    .diadose{
+        height: 55px;
+    }
+    .text-content{
+        float: left;
+    }
+    .non-text-wrap{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: inline-block;
+    }
+    .text-wrap{
+        float: left;
+        display: inline-block;
+    }
+    .logo-wrap{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 100;
+    }
+
+    .logo-wrap > img{
+        height: 55px;
+    }
+
+    .birds-wrap{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+
+    
+    .text-wrap{
+        /*display: inline-block;*/
+        z-index: 150;
+        float: left;
+        top: 10px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .non-text-wrap{
+        display: block;
+    }
+    .text-wrap{
+        display: block;
+    }
+}
+
+.text-wrap, .letter-wide{
+    letter-spacing: .8px;
+    color: white;
+    text-align: center;
+}
